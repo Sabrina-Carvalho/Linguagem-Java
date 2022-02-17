@@ -1,0 +1,20 @@
+/*Receba os valores em x e y. Efetue a troca de seus valores e mostre seus 
+conteúdos.
+*/
+
+import  java.util.Scanner;
+
+public class ExercLt01_06 {
+    public static mai(String[] args){
+        Scanner scan = new Scanner(System.in);
+        float x, y, z;
+        
+        
+        System.out.println("Insira um valor para X: ");
+        x = scan.nextFloat();
+        System.out.println("Insira um valor para X: ");
+        y = scan.nextFloat();
+        
+    }
+    
+}
