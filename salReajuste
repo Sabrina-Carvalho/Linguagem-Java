@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
  *
  * @author FATEC ZONA LESTE
  */
-public class ExercLt01.01 {
+public class ExercLt01_01 {
 
     /**
      * @param args the command line arguments
