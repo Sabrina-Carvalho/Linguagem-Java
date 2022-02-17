@@ -1,0 +1,29 @@
+/* Receba os coeficientes A, B e C de uma equção do 2º grau (AX^2+BX+C=0).
+Calcule e mostre as raízes reais (considerar qu a equação possue 2 raízes).
+*/
+
+public class ExercLt01_05 {
+    
+}
+
+import java.util.Scanner;
+
+public class ExercLt01_04 {
+
+    public static void main(String[] arg) {
+        float temp_F = 0;
+                
+        Scanner scan = new Scanner(System.in);
+        float temp_C;
+        
+        System.out.println("Digite a temperatura em Celsius");
+        temp_C = scan.nextFloat();
+        
+        temp_F = (9 * temp_C + 160) / 5;
+        
+        String F;
+        
+        System.out.println("A temperatura em Fahrenheit: " + temp_F);
+        F = scan.next();
+        }
+}
