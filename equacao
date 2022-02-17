@@ -1,5 +1,8 @@
 /* Receba os coeficientes A, B e C de uma equção do 2º grau (AX^2+BX+C=0).
 Calcule e mostre as raízes reais (considerar qu a equação possue 2 raízes).
+
+
+FAZER
 */
 
 public class ExercLt01_05 {
