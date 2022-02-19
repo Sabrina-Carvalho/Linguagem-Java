@@ -1,16 +1,10 @@
 /* Receba a base e a altura de um triângulo. Calcule e mostre a sua área*/
 
-/*import java.util.Scanner;*/
-
 import javax.swing.JOptionPane;
 
 public class ExercLt01_03 {
+
     public static void main(String[] arg) {
-        /*Scanner scan = new Scanner(System.in);
-        String a;
-        
-        System.out.println("peido");
-        a = scan.next();*/
         
         float base = 0, altura = 0, area = 0;
         base = Float.parseFloat(JOptionPane.showInputDialog("Digite o valor da base do triângulo: "));
