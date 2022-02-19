@@ -1,16 +1,9 @@
-package pjr_17022022;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author FATEC ZONA LESTE
- */
+
 public class ExercLt01_01 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         float sal = 0, reajuste = 0;
         sal = Float.parseFloat(JOptionPane.showInputDialog("Digite o valor de salário: "));
