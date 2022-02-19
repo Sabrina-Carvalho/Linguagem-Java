@@ -1,5 +1,6 @@
 /*Receba os 2 números inteiros. Calcule e mostre a soma dos quadrados
 */
+
 import javax.swing.JOptionPane;
 
 public class ExercLt01_09 {
