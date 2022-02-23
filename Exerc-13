@@ -8,7 +8,6 @@ public class ExercLt01_13 {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         float qtd_Ali, dias;
-         
         
         System.out.println("Insira a quantidade de alimento em quilos: ");
         qtd_Ali = scan.nextFloat();
