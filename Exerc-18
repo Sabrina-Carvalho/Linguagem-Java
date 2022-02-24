@@ -4,9 +4,10 @@ pelo menor valor.
 
 import javax.swing.JOptionPane;
 
-public class Exerc18 {
-    public static void main(String[] args){
-        double num1, num2, total;
+public class Exerc-18 {
+
+     public static void main(String[] args){
+        float num1, num2, total;
         
         num1 = (Integer.parseInt(JOptionPane.showInputDialog("Insira o 1º valor: ")));
         num2 = (Integer.parseInt(JOptionPane.showInputDialog("Insira o 2º valor: ")));
