@@ -4,7 +4,7 @@ pelo menor valor.
 
 import javax.swing.JOptionPane;
 
-public class Exerc-18 {
+public class Exerc18 {
 
      public static void main(String[] args){
         float num1, num2, total;
