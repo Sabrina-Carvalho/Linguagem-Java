@@ -1,7 +1,7 @@
 //Desenvolva um algoritmo que receba um valor numérico real, verifique e mostre se esse número é positivo.
 import javax.swing.JOptionPane;
 
-public class Teste06 {
+public class Teste05 {
     public static void main(String[] args){
         double x; // declaração de variáveis 
         
