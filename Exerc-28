@@ -8,3 +8,32 @@ VENDA MENSAL   | PREÇO ATUAL   |   PREÇO NOVO   |
 
 Obs.: para outras condições, preço novo será igual ao preço atual.
 */
+
+import java.util.Scanner;
+
+public class Exerc28{
+    public static void main(String [] args){
+        
+        Scanner scan = new Scanner(System.in);
+        
+        double $preco_Atual, $preco_Novo, $media_Mensal;
+                
+        System.out.println("Insira o preço atual do produto: ");
+        $preco_Atual = scan.nextDouble();
+        
+        System.out.println("Insira a média mensal de venda do produto: ");
+        $media_Mensal = scan.nextDouble();
+        
+        if(($media_Mensal < 500) && ($preco_Atual < 30)){
+            $preco_Novo = $preco_Atual * 1.10; 
+        }
+        else{
+            if((500 <= $media_Mensal < 100) && (30 <= $preco_Atual < 80)){
+                $preco_Novo = $preco_Atual * 1.15;
+            }
+            else
+                if((100 > $media_Mensal >= 500) && (80 > $preco_Atual >= 30)){
+                    $preco_Novo = $preco_Atual * 1.15;
+        }
+    }
+}
