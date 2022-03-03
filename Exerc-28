@@ -18,24 +18,33 @@ public class Exerc28{
         
         Scanner scan = new Scanner(System.in);
         
-        double $preco_Atual, $preco_Novo, $media_Mensal;
+        double preco_Atual, preco_Novo, media_Mensal;
                 
         System.out.println("Insira o preço atual do produto: ");
-        $preco_Atual = scan.nextDouble();
+        preco_Atual = scan.nextDouble();
         
         System.out.println("Insira a média mensal de venda do produto: ");
-        $media_Mensal = scan.nextDouble();
+        media_Mensal = scan.nextDouble();
         
-        if(($media_Mensal < 500) && ($preco_Atual < 30)){
-            $preco_Novo = $preco_Atual * 1.10; 
+        if((media_Mensal < 500) && (preco_Atual < 30)){
+            preco_Novo = preco_Atual * 1.10; 
+            System.out.println("Valor do produto:  " + preco_Atual);
+            System.out.println("Média mensal:  " + media_Mensal);
+            System.out.println("Novo preço:  " + preco_Novo);
         }
         else
-            if((500 <= $media_Mensal < 100) && (30 <= $preco_Atual < 80)){
-                $preco_Novo = $preco_Atual * 1.15;
+            if(((500 <= media_Mensal) && (media_Mensal < 100)) && ((30 <= preco_Atual) && (preco_Atual < 80))){
+                preco_Novo = preco_Atual * 1.15;
+                System.out.println("Valor do produto:  " + preco_Atual);
+                System.out.println("Média mensal:  " + media_Mensal);
+                System.out.println("Novo preço:  " + preco_Novo);
             }
             else
-                if((100 > $media_Mensal >= 500) && (80 > $preco_Atual >= 30)){
-                    $preco_Novo = $preco_Atual * 1.15;
+                if((media_Mensal >= 1000) && (preco_Atual >= 80)){
+                    preco_Novo = (preco_Atual - (preco_Atual * 0.05));
+                    System.out.println("Valor do produto:  " + preco_Atual);
+                    System.out.println("Média mensal:  " + media_Mensal);
+                    System.out.println("Novo preço:  " + preco_Novo);
         }
     }
 }
