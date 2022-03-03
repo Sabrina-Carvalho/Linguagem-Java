@@ -1,5 +1,14 @@
-/*
-Receba o código correspondente ao cargo de um funcionário e seu salário atual e mostre o cargo,  o valor do aumento e seu salário. Os cargos estão na tabela. 
+/* Receba o código correspondente ao cargo de um funcionário e seu salário atual e mostre o cargo,  o valor do aumento e seu salário. Os cargos estão na tabela. 
+
+- Utilizar estrutura switch... case
+
+Código  |  Cargo           |  Pecentual
+1       | Escritório       |    50%
+2       | Secretário       |    35%
+3       | Caixa            |    20%
+4       | Gerente          |    10%
+Outros  | "Não há cargos"  |    ___
+
 */
 import javax.swing.JOptionPane;;
 public class Teste08{
