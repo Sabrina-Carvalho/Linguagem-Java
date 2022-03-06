@@ -2,8 +2,6 @@
 Calcule e mostre o valor corrigido em 30 dias sabendo que a poupança = 3% e a renda fixa = 5%. Demais tipos não serão considerados.
 */
 
-//REFAZER
-
 import javax.swing.JOptionPane;
 
 public class Exerc29{
