@@ -2,8 +2,6 @@
 
 //REFAZER
 
-//Receba um número inteiro. Calcule e mostre o seu fatorial.
-
 import java.util.Scanner;
 
 public class Exerc32{
