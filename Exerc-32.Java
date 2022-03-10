@@ -1,6 +1,5 @@
 //Receba um número inteiro. Calcule e mostre o seu fatorial.
 
-//REFAZER
 
 import java.util.Scanner;
 
@@ -9,19 +8,19 @@ public class Exerc32{
         
         Scanner scan = new Scanner(System.in);
         
-        double num = 0;
-        double soma = num; 
+        double n1, num = 0;
+        double soma = 1; 
         
         System.out.println("Insira um número inteiro: ");
         num = scan.nextInt();
-        
+        n1 = num;
         if(num > 1){
             while(num > 1){
-                soma =(soma*(num - 1)); 
+                soma =(soma*(num)); 
                 num--;
             }   
         
-        System.out.println("O fatorial de " + num + " é: " + soma);
+        System.out.println("O fatorial de " + n1 + " é: " + soma);
         }
         else
             if(num == 0){
