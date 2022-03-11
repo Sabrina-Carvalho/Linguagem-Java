@@ -1,3 +1,7 @@
+/*Calcula o Salário a Receber a partir do Salário Bruto e Desconto
+Exemplo de Procedures
+*/
+
 import javax.swing.JOptionPane;
 
 public class Teste09 {
