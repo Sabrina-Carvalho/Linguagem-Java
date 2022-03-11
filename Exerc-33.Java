@@ -1,4 +1,4 @@
-//Receba um número. Calcule e mostre a soma da série:
+//Receba um número. Calcule e mostre a soma da série: 1 + 1/2 + 1/3 + ... + 1/N.
 
 import java.util.Scanner;
 
