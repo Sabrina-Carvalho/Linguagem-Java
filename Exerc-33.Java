@@ -1,12 +1,10 @@
 //Receba um número. Calcule e mostre a soma da série:
 
-//REFAZER
-
 import java.util.Scanner;
 
     public class Exerc33{
         public static void main(String[] args){
-            int c = 0;
+            float c = 0;
             float n, soma = 0;
             
             Scanner scan = new Scanner(System.in);
@@ -22,3 +20,4 @@ import java.util.Scanner;
             System.out.println("A soma da série é: " + soma);
         }
     }
+
