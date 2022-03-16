@@ -15,7 +15,7 @@ public class Exerc40 {
     static void ProcedureNum(){
         
         float num1, num2;
-        System.out.println("Inisra um valor supeior a zero:");
+        System.out.println("Insira um valor supeior a zero:");
         num1 = scan.newFloat();
         
     }
