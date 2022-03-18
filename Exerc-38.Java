@@ -6,6 +6,7 @@
 import java.util.Scanner;
 
 public class Exerc38 {
+    static float x=0, y=0, w=0, z=0, aux;
     public static void main(String[] args){
         
         Scanner scan = new Scanner(System.in);
@@ -29,26 +30,31 @@ public class Exerc38 {
     }
     
     static void ProcedureMaiorMenor(){
-        float x, y, w, z, aux;
+        
         if((x == 0) || (y == 0) || (w == 0 ) || (z == 0)){
             System.out.println("**Insira valores maior que zero**");
         }
+        else{
             if(x >= y){
                 aux = x;
                 x = y;
                 y = aux;
-                else 
-                    if(y >= w){
+            }
+        }
+            else{
+                if(y >= w){
                     aux = y;
                     y = w;
                     w = aux; 
-                    else
-                        if(w >= z){
+                }
+                else{
+                    if(w >= z){
                         aux = w;
                         w = z;
                         z = aux;
                     }
                 }
             }
-    
+        System.out.println(x + " " + y + " " +  w + " " + z);
+    }
 }
