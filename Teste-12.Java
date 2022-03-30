@@ -24,20 +24,16 @@ public class Teste {
     }
     
     static int[] FunçãoCarrega(int v[]) {
-    
         int  i;
-
         for(i=0; i<5; i++) {
-    
             v[i] = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor do " + (i+1) + "o elemento do vetor."));
         }
 
         return v;
     }
-    
+   
     static int[] FunçãoClassifica(int v[]) {
         int i, j, aux;
-        
         for(i=0; i<4; i++) {
             for(j=i+1; j<5; j++) {
                 if(v[i]>v[j]) {
