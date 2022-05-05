@@ -1,0 +1,19 @@
+import javax.swing.JOptionPane;
+
+public class Fatorial {
+    
+    public static void main(String args[]){
+        int n = Integer.parseInt(JOptionPane.showInputDialog("Digite um valor"));
+        
+        Fatorial b = new Fatorial();
+        n = b.fat(n);
+        JOptionPane.showMessageDialog(null, "O fatorial é: " + n);
+    }
+    
+        public int fat (int num){
+            if(num==0){
+                return 1;
+            }
+            return num * fat (num-1);
+        }
+    }
