@@ -1,0 +1,91 @@
+//PROGRAMA PRINCIPAL
+package tarefa;
+import javax.swing.*;
+
+public class ClasseMenu { //construção do menu
+    public static void main(String[] args){
+        Votacao[] votacao = new Votacao[200]; //criação da classe
+        
+        ClasseMetodos m = new ClasseMetodos();
+        int i;
+        
+        for(i=0; i<200; i++){
+            votacao[i] = new Votacao();
+            
+        }
+        
+        int opc = 0;
+        while(opc!=9){
+            opc = Integer.parseInt(JOptionPane.showInputDialog("----------------------------------------------------- \n | SISTEMA DE VOTAÇÃO | \n | 1 - Carregar Seção/Número Eleitor | \n | 2 - Classificar por Seção | \n | 3 - Gravar Registros | \n | 4 - Mostrar Indicadores | \n | 9 - Finalizar | \n -----------------------------------------------------"));
+            switch (opc){
+                case 1:
+                    break;
+                case 2: 
+                    break;
+                case 3: votacao = m.FCadastra(votacao);
+                    break;
+                case 4: 
+                    break; 
+                case 9: JOptionPane.showMessageDialog(null, "Programa Finalizado");
+                    break;
+                default: JOptionPane.showMessageDialog(null, "Opção Inválida");
+            }
+        }
+    }
+    
+}
+
+
+
+
+
+
+// METODOS
+package tarefa;
+import javax.swing.*;
+
+public class ClasseMetodos {
+    public Votacao[] FCadastra(Votacao[] votacao){
+        int i; 
+        
+        for(i=0; i<200; i++){
+            votacao[i] = numsecao = Integer.parseInt(JOptionPane.showInputDialog("Insira o número da seção: "));
+            votacao[i] = numcand = Integer.parseInt(JOptionPane.showInputDialog("Insira o número do candidato: "));
+            
+        }
+        return votacao;
+    }
+    public void FConsulta(Votacao[] votacao){
+        int i;
+        
+        for(i=0; i<200; i++){
+            System.out.println(votacao[i].numsecao + " " + votacao[i].numcand + " ");
+    }
+    }
+}
+
+
+
+
+
+
+
+//CLASSE
+package tarefa;
+
+
+class Votacao {
+    int numsecao;
+    int numcand;
+    
+    Votacao(){
+        this(0, 0);
+    }
+    
+    Votacao
+            (int numsecaovotacao, int numcandvotacao)
+            {
+                numsecao = numsecaovotacao;
+                numcand = numcandvotacao;
+            }
+}
